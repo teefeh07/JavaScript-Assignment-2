@@ -3,10 +3,12 @@
     let lastName= "Ayesa";
     let height= "6'3ft";
     let country= "Nigeria";
+     
+
+
+    alert(`My name is ${firstName} ${middleName} ${lastName} 
+I am ${height} tall
+I am from ${country}`)
 
     
-    const fullName= firstName + ' ' + middleName + ' ' + lastName;
- 
-    document.write('Name:' + ' '+ fullName + '<br/>');
-    document.write('Height:' + ' '+ height + '<br/>');
-    document.write('Country:' + ' '+ country + '<br/>');
+    
